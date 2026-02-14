@@ -1,0 +1,89 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Main container */
+.resume {
+    width: 800px;
+    max-width: 95%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+header p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Section headings */
+section h2 {
+    font-size: 20px;
+    color: #222;
+    border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+/* Paragraphs in sections */
+section p {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #555;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .resume {
+        padding: 20px;
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    section h2 {
+        font-size: 18px;
+    }
+}
